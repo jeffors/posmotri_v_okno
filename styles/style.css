@@ -64,3 +64,34 @@ ol {
   height: 100%;
   gap: 26px;
 }
+
+.result__video-container {
+  width: 711px;
+  height: 386px;
+  margin-bottom: 20px;
+}
+
+.result__video-container video {
+  object-fit: cover;
+  object-position: top;
+  width: inherit;
+  height: 100%;
+}
+
+.content__list-item {
+  margin-bottom: 30px;
+}
+
+.content__video-card {
+  display: flex;
+  align-items: start;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+}
+
+.content__video-card-description-container {
+  width: 100%;
+}
