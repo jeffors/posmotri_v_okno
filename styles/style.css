@@ -10,6 +10,7 @@ html {
 
 .page {
   display: flex;
+  justify-content: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -53,7 +54,7 @@ ol {
 }
 
 .content__list {
-  max-height: 534px;
+  max-height: 298px;
   overflow-y: scroll;
 }
 
