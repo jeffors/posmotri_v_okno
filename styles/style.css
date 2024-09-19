@@ -173,6 +173,15 @@ ol {
   line-height: 1.2;
 }
 
+.search-form__textfield:focus {
+  outline: none;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid white;
+  outline-offset: 1px;
+}
+
 .search-form__checkbox-list {
   display: flex;
   gap: 10px;
@@ -194,4 +203,34 @@ ol {
   width: 100%;
   padding: 6px;
   cursor: pointer;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: rgba(84, 80, 80, 1);
+}
+
+.button {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid white;
+  outline-offset: 1px;
+}
+
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
+  display: block;
+  content: '';
+  background-color: white;
+  width: 11px;
+  height: 11px;
+  margin: 1px;
+}
+
+.search-form__label:hover .search-form__label-text  {
+  text-decoration: underline;
 }
