@@ -60,6 +60,9 @@ ol {
   overflow-y: scroll;
   scrollbar-color: gray #1b1919;
   scrollbar-width: thin; 
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 } 
 
 .content__details {
@@ -84,17 +87,13 @@ ol {
   height: 100%;
 }
 
-.content__list-item {
-  margin-bottom: 30px;
-}
-
 .content__video-card {
   display: flex;
   align-items: start;
 }
 
 .content__video-card-thumbnail {
-  width: 194px;
+  min-width: 194px;
   height: 103px;
 }
 
