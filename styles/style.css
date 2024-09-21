@@ -49,7 +49,7 @@ ol {
 
 .search-form {
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: space-between;
   gap: 40px;
 }
@@ -165,6 +165,7 @@ ol {
 }
 
 .search-form__textfield {
+  padding: 2.5px 0;
   width: 225px;
   appearance: none;
   font-family: inherit;
@@ -207,6 +208,7 @@ ol {
   width: 100%;
   padding: 6px;
   cursor: pointer;
+  align-self: end;
 }
 
 .button:hover {
