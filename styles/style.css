@@ -77,7 +77,7 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
 }
 
 .result__video-container video {
@@ -109,6 +109,7 @@ ol {
   font-weight: normal;
   font-size: 18px;
   line-height: 1.2; 
+  margin-bottom: 5px;
 }
 
 .title {
@@ -165,7 +166,7 @@ ol {
 }
 
 .search-form__textfield {
-  padding: 2.5px 0;
+  padding-left: 0;
   width: 225px;
   appearance: none;
   font-family: inherit;
@@ -206,7 +207,7 @@ ol {
   border: 1px solid #fff;
   font-weight: bold;
   width: 100%;
-  padding: 6px;
+  padding: 5px;
   cursor: pointer;
   align-self: end;
 }
