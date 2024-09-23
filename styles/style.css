@@ -71,7 +71,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  max-height: 298px;
+  height: 298px;
   overflow-y: auto;
 }
 
@@ -79,7 +79,6 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  min-height: 529px;
 }
 
 .content__accent {
