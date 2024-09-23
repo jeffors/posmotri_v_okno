@@ -63,6 +63,7 @@ ol {
   gap: 30px;
   align-self: center;
   max-width: 1140px;
+  width: 100%;
 }
 
 .content__list {
@@ -78,7 +79,6 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  min-width: 400px;
   min-height: 529px;
 }
 
