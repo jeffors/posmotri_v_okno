@@ -112,8 +112,13 @@ ol {
   background-color: #545050;
 }
 
+.content__video-card {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
 .content__video-card-title {
-  width: 200px;
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -128,11 +133,6 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.1;
-}
-
-.content__video-card {
-  display: flex;
-  align-items: start;
 }
 
 .content__video-card-thumbnail {
